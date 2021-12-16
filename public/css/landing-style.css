@@ -1,0 +1,20 @@
+
+
+#app{
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo img{
+    width: 400px;
+}
+
+header{
+    padding-top: 7rem;
+}
+
+ul{
+        padding-top: 2rem;
+}
+

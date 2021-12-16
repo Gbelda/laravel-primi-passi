@@ -23,7 +23,20 @@ Route::get('/', function () {
         ]
     ];
 
-
-
     return view('home', $data);
 });
+
+Route::get('/about', function () {
+    $data = [
+        'indexes' => [
+            'Home',
+            'About',
+            'Characters',
+            'Mechas'
+        ]
+    ];
+
+    return view('about', $data);
+})->name('about');
+
+$url = route('about');

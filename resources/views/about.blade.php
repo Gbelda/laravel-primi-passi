@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME</title>
     <link rel="stylesheet" href="/css/common.css">
-    <link rel="stylesheet" href="/css/landing-style.css">
+    <link rel="stylesheet" href="/css/about-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Armata&display=swap" rel="stylesheet">
@@ -17,15 +17,11 @@
             <div class="logo">
                 <img src="/img/unicorn.png" alt="">
             </div>
-                <ul>
-                    @foreach ($indexes as $index)
-                        <li>
-                            <a href="route[{$about}]">
-                                {{$index}}
-                            </a>
-                        </li>
-                    @endforeach
-                </ul>
+            <ul>
+                @foreach ($indexes as $index)
+                    <li>{{$index}}</li>
+                @endforeach
+            </ul>
         </header>
     </div>
 </body>

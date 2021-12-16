@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Armata', sans-serif;
+}
+
+#app{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/bg-space.jpg);
+    background-size: cover;
+}
+
+li{
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+}
+
+li:hover{
+    color: firebrick;
+    cursor: pointer;
+    border-color: firebrick;
+
+}
+
+ul{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    width: 600px;
+}
+
+.logo{
+    text-align: center;
+}
