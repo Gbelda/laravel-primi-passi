@@ -19,8 +19,21 @@ li{
     border-bottom: 2px solid transparent;
 }
 
-li:hover{
+a{
+    text-decoration: none;
+    color: white
+}
+
+a:hover{
     color: firebrick;
+
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+li:hover{
     cursor: pointer;
     border-color: firebrick;
 

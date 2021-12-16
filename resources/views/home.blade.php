@@ -20,7 +20,7 @@
                 <ul>
                     @foreach ($indexes as $index)
                         <li>
-                            <a href="/about">
+                            <a href="/{{ strtolower($index)}}">
                                 {{$index}}
                             </a>
                         </li>
