@@ -36,7 +36,6 @@ Route::get('/about', function () {
         ]
     ];
 
-    return view('about', $data);
+    return view('about', $data,  );
 })->name('about');
 
-$url = route('about');

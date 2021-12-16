@@ -20,7 +20,7 @@
                 <ul>
                     @foreach ($indexes as $index)
                         <li>
-                            <a href="route[{$about}]">
+                            <a href="/about">
                                 {{$index}}
                             </a>
                         </li>
