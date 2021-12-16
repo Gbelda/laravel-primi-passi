@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Armata', sans-serif;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo img{
+    width: 400px;
+}
+
+header{
+    padding-top: 7rem;
+}
+
+ul{
+    display: flex;
+    gap: 1rem;
+    padding-top: 2rem;
+    justify-content: space-evenly;
+    width: 600px;
+}
+
+li{
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+}
+
+li:hover{
+    color: firebrick;
+    cursor: pointer;
+    border-color: firebrick;
+
+}
+
+#app{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/bg-space.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
