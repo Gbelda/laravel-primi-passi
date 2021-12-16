@@ -16,29 +16,25 @@ width: 300px;
 }
 
 main{
-    width: 60%;
-    background-color: whitesmoke;
     margin: auto;
-    display: flex;
-    height: 500px;
     margin-top: 5rem;
 }
 
 .container{
-    display: flex;
-    justify-content: space-between;
+    gap: 10rem;
+    padding-bottom: 5rem;
 }
 
-.text{
-    width: 50%;
+.card{
+    width: 20%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border: 1rem solid lightgray;
+
 }
 
-p{
-    font-size: 1.1rem;
-    line-height: 2rem;
-    padding-top: 2rem;
-}
 
-.container img{
-    height: 500px;
+.poster img{
+    width: 100%;
 }

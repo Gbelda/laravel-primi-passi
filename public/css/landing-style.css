@@ -2,7 +2,8 @@
 
 #app{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -11,10 +12,15 @@
 }
 
 header{
-    padding-top: 7rem;
+    padding-top: 4rem;
 }
 
 ul{
         padding-top: 2rem;
+}
+
+
+main{
+    padding-top: 5rem;
 }
 

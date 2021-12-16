@@ -7,7 +7,7 @@
 
 #app{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(../img/bg-space.jpg);
     background-size: cover;
 }
@@ -48,4 +48,18 @@ ul{
 
 .logo{
     text-align: center;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.card{
+ background-color: whitesmoke;
+ display: flex;
+ 
 }

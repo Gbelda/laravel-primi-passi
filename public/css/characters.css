@@ -16,29 +16,27 @@ width: 300px;
 }
 
 main{
-    width: 60%;
-    background-color: whitesmoke;
     margin: auto;
-    display: flex;
-    height: 500px;
     margin-top: 5rem;
+    height: 600px;
 }
 
-.container{
-    display: flex;
+
+.card{
+    width: 30%;
     justify-content: space-between;
+
+}
+
+.poster img{
+    height: 362px;
 }
 
 .text{
-    width: 50%;
+    width: 40%;
 }
 
 p{
-    font-size: 1.1rem;
-    line-height: 2rem;
-    padding-top: 2rem;
-}
-
-.container img{
-    height: 500px;
+    font-size: .9rem;
+    padding-top: 3rem;
 }
